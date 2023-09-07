@@ -111,3 +111,7 @@ form button {
   margin-top: 10px;
   transition: 0.3s ease;
 }
+
+form button:hover {
+  background-color: #4534fe;
+}
