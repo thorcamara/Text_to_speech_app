@@ -72,3 +72,22 @@ form .row textarea {
 form .row textarea::-webkit-scrollbar {
   width: 0px;
 }
+
+form .row .outer {
+  height: 47px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+form .row select {
+  font-size: 14px;
+  background: none;
+}
+
+form .row select::-webkit-scrollbar {
+  width: 8px;
+}
